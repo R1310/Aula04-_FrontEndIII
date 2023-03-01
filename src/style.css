@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #fffefe; 
+    height: 100vh;
+  }
+  
+  .header {
+    background: #f31414;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+  .lista {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fffefe;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  
+  main {
+    padding: 20px;
+    height: 500px;
+    text-align: center;
+  }
+
+  section {
+    
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between
+}
+
+h1{
+    color: rgb(161, 129, 80) ;
+}
+
+  footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 101px;
+    background: #f31414;
+    color: #ffffff;
+  }
